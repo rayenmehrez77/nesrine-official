@@ -1,0 +1,66 @@
+.header {
+  &__navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+
+    a {
+      text-decoration: none;
+    }
+
+    nav ul {
+      width: 60rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+
+      li {
+        margin-right: 3rem;
+        font-size: 2rem;
+        padding: 3px 0;
+
+        &:hover {
+          border-bottom: 2px solid var(--color-primary);
+          color: var(--color-primary);
+        }
+      }
+    }
+
+    &-link {
+      color: var(--primary-color);
+    }
+
+    &-book {
+      font-size: 1.4rem;
+      text-decoration: none;
+      color: var(--color-white);
+      border: 2px solid var(--color-primary);
+      padding: 5px 8px;
+      background-color: var(--color-secondary-light);
+      border-radius: 3rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.06);
+        background-color: var(--color-secondary-dark);
+      }
+    }
+
+    &-title {
+      font-family: "Dancing Script", cursive;
+      font-size: 3.5rem;
+      font-weight: 400;
+      letter-spacing: 4px;
+      color: var(--color-primary);
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.intro {
+  padding: 15rem 6rem;
+  display: flex;
+  align-items: flex-start;
+
+  &__desc {
+    width: 50%;
+    padding: 3rem;
+
+    h1 {
+      font-size: 3.4rem;
+      letter-spacing: 3px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--color-grey-dark-3);
+    }
+
+    h3 {
+      font-size: 4rem;
+      color: var(--color-grey-dark-3);
+      margin: 1.5rem 0;
+      font-weight: 400;
+      letter-spacing: 4px;
+    }
+
+    h4 {
+      font-size: 2.5rem;
+      letter-spacing: 3.5px;
+      margin: 3rem 0;
+      width: 70%;
+      color: var(--color-grey-dark-3);
+    }
+  }
+
+  &__imgBox {
+    position: relative;
+    &-1 {
+      width: 52rem;
+      margin-left: 4rem;
+      object-fit: contain;
+      z-index: 2;
+    }
+
+    &-2 {
+      width: 44.1rem;
+      position: absolute;
+      top: 0rem;
+      left: 11rem;
+      z-index: -1;
+    }
+  }
+}
