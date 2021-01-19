@@ -1,0 +1,60 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  width: 277px;
+  height: 30px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 0.045em;
+}
+
+.btn svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btn svg rect {
+  stroke-width: 4;
+  stroke-dasharray: 353, 0;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.btn span {
+  background: rgb(112, 77, 0);
+  background: -moz-linear-gradient(
+    left,
+    rgb(199, 144, 25) 0%,
+    rgb(112, 77, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgb(175, 134, 46) 0%,
+    rgb(112, 77, 0) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgb(177, 135, 46) 0%,
+    rgb(112, 77, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(112, 77, 0)', endColorstr='rgb(112, 77, 0)',GradientType=1 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn:hover svg rect {
+  stroke-width: 4;
+  stroke-dasharray: 196, 543;
+  stroke-dashoffset: 437;
+}

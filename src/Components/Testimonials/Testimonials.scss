@@ -1,0 +1,120 @@
+.testimonials {
+  height: 100vh;
+  &__title {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 3.5rem;
+    position: relative;
+    color: var(--color-black);
+    & .center {
+      text-align: center;
+    }
+
+    span {
+      font-size: 5rem;
+      color: rgb(247, 181, 0);
+      font-weight: 600;
+    }
+  }
+}
+
+.testimonials__container {
+  margin: 60px auto;
+  max-width: 550px;
+  min-height: 40vh;
+  border-radius: 10px;
+}
+
+.img-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.img-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(238, 196, 79);
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.img-container > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.testimonials__container > footer > h4 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonials__container > footer > p {
+  margin: 2rem auto;
+  text-align: center;
+  color: #000000;
+  font-weight: 600;
+  width: 350px;
+  max-height: 49px;
+  font-size: 1.7rem;
+  padding: 1.5rem 0;
+}
+
+.testimonials__quote-icon {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.testimonials__container > footer {
+  padding-top: 20px;
+}
+
+.testimonials__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.next-btn,
+.prev-btn {
+  margin: 2rem 0;
+  cursor: pointer;
+  padding: 1rem 1.4rem;
+  background-color: rgb(187, 140, 9);
+  color: #fff;
+  border: none;
+  outline-style: none;
+  border-radius: 3px;
+  transition: all 0.1s;
+}
+
+.next-btn {
+  margin-left: 1.6rem;
+  &:active {
+    background-color: rgb(155, 114, 1);
+    transform: translateX(3px);
+  }
+}
+
+.prev-btn {
+  &:active {
+    background-color: rgb(155, 114, 1);
+    transform: translateX(-3px);
+  }
+}

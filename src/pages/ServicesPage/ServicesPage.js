@@ -5,7 +5,7 @@ import "./ServicesPage.scss";
 function ServicesPage() {
   return (
     <div className="services-page">
-      <NavigationComponent />
+      <NavigationComponent link="Services" />
       <h1>About Page</h1>
     </div>
   );

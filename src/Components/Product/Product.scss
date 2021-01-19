@@ -1,0 +1,36 @@
+.product {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  z-index: 8;
+  &__icon {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    fill: rgb(247, 181, 0);
+  }
+
+  &__info {
+    h3 {
+      font-size: 2rem;
+      color: #fff;
+      margin: 1rem 0;
+    }
+
+    a {
+      color: #fff;
+      margin-top: 0.8rem;
+      padding: 0.3rem 0.6rem;
+      display: inline-block;
+      font-size: 1.4rem;
+      border: 2px solid rgb(119, 118, 118);
+      text-decoration: none;
+      transition: all 0.4s;
+
+      &:hover {
+        background-color: var(--color-primary);
+        font-weight: 600;
+      }
+    }
+  }
+}

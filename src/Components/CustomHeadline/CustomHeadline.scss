@@ -1,0 +1,15 @@
+.title {
+  font-size: 3.5rem;
+  position: relative;
+  color: rgb(29, 29, 29);
+
+  & .center {
+    text-align: center;
+  }
+
+  span {
+    font-size: 5rem;
+    color: rgb(199, 146, 0);
+    font-weight: 600;
+  }
+}
