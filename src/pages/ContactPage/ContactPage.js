@@ -29,11 +29,11 @@ class Contact extends Component {
             </h1>
             <div className="contact-page__tel">
               <FaPhoneAlt className="contact-page__tel-icon" />
-              <h4>+ 21692183047</h4>
+              <h4>+ 21654121304</h4>
             </div>
             <div className="contact-page__email-text">
               <IoMail className="contact-page__email-text-icon" />
-              <h4>rayenmehrez28@gmail.com</h4>
+              <h4>bedhiefnoussa@gmail.com</h4>
             </div>
             <form className="contact-page__form">
               <input

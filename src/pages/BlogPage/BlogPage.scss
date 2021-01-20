@@ -1,0 +1,18 @@
+.blog-page {
+  &__posts {
+    margin: 0 auto;
+  }
+
+  &__top {
+    padding: 6rem 3rem 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__options {
+    padding: 0.6rem 1rem;
+    border: none;
+    outline-style: none;
+    border: 1px solid #666;
+    font-weight: 600;
+  }
+}
