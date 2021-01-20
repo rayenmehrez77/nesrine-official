@@ -5,7 +5,8 @@ import AboutPage from "./pages/AboutPage/AboutPage";
 import BlogPage from "./pages/BlogPage/BlogPage";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
-import Header from "./Components/Header/Header";
+import Header from "./Components/Header/Header"; 
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/blog" component={BlogPage} />
         <Route exact path="/contact" component={ContactPage} />
       </Switch>
+      <Footer/> 
     </>
   );
 }

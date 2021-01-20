@@ -5,6 +5,7 @@ import "./HomePage.scss";
 import About from "../../Components/About/About";
 import Services from "../../Components/Services/Services";
 import Testimonials from "../../Components/Testimonials/Testimonials";
+import Quote from "../../Components/Quote/Quote";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <About />
       <Services />
       <Testimonials />
+      <Quote />
     </div>
   );
 };

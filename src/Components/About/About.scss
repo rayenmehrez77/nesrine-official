@@ -1,6 +1,7 @@
 .about {
   display: flex;
   margin: 2rem 3rem;
+  flex-direction: row-reverse;
 
   &__content {
     padding: 4rem;
