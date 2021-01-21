@@ -1,3 +1,5 @@
+@import "mixins";
+
 :root {
   // COLORS
   --color-primary: #daa403;
@@ -19,59 +21,9 @@
 
   --color-white: #fff;
   --color-black: #000;
-
-  // FONT
-  --default-font-size: 1.6rem;
-
-  // GRID
-  --grid-width: 114rem;
-  --gutter-vertical: 8rem;
-  --gutter-vertical-small: 6rem;
-  --gutter-horizontal: 6rem;
-}
-
-@mixin boxShadow {
-  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
-}
-
-@mixin centerElement {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.u-center-text {
-  text-align: center !important;
 }
 
 // Media queries Manager
-
-@mixin respond($breakpoint) {
-  @if $breakpoint == phone {
-    @media (max-width: 37.5em) {
-      // 600px
-      @content;
-    }
-  }
-
-  @if $breakpoint == tab-port {
-    @media (max-width: 56.25em) {
-      // 900px
-      @content;
-    }
-  }
-  @if $breakpoint == tab-land {
-    @media (max-width: 75em) {
-      @content;
-    } // 1200px
-  }
-  @if $breakpoint == big-desktop {
-    @media (min-width: 112.5em) {
-      @content;
-    } // 1800px
-  }
-}
 
 * {
   margin: 0;
@@ -80,7 +32,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 65.5%;
   scroll-behavior: smooth;
 }
 

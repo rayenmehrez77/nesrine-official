@@ -19,8 +19,6 @@ function BlogPage() {
     } else {
       return null;
     }
-
-    // return item.category.includes(search) ? item : null;
   });
 
   return (

@@ -15,4 +15,8 @@
     border: 1px solid #666;
     font-weight: 600;
   }
+
+  @media screen and(max-width: 1128px) {
+    width: 100%;
+  }
 }

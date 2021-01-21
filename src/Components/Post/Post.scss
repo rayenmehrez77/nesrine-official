@@ -6,7 +6,7 @@
   margin: 0.5rem;
 
   &__imgbox {
-    width: 40vw;
+    width: 60vw;
 
     img {
       width: 100%;
@@ -43,7 +43,7 @@
   }
 
   &__content {
-    margin-left: 2rem;
+    margin-left: 5rem;
     img {
       width: 5rem;
       height: 5rem;
@@ -58,5 +58,23 @@
     margin: 1.5rem 0;
     color: rgb(187, 174, 0);
     font-weight: 800;
+  }
+
+  @media screen and(max-width: 1128px) {
+    flex-direction: column;
+    width: 100%;
+
+    &__imgbox {
+      width: 100%;
+
+      img {
+        width: 64%;
+      }
+    }
+
+    &__content {
+      margin-left: 0rem;
+      margin-top: 1.5rem;
+    }
   }
 }

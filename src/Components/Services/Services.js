@@ -7,7 +7,6 @@ import { ReactComponent as Heart } from "../../assets/svg/031-heart.svg";
 import { ReactComponent as Idea } from "../../assets/svg/032-idea.svg";
 import { ReactComponent as Direction } from "../../assets/svg/040-direction.svg";
 import Product from "../Product/Product";
-import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -20,12 +19,12 @@ function Services() {
       <div className="services__products">
         <Product
           title="
-Prioritization and goal setting in a strategic way"
+            Prioritization and goal setting in a strategic way"
           Icon={Rank}
         />
         <Product
           title="
-Turn your idea into a business on instagram"
+            Turn your idea into a business on instagram"
           Icon={Brain}
         />
         <Product

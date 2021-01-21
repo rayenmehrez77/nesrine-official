@@ -5,13 +5,13 @@ import AboutPage from "./pages/AboutPage/AboutPage";
 import BlogPage from "./pages/BlogPage/BlogPage";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
-import Header from "./Components/Header/Header";
+import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <>
-      <Header />
+      <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={AboutPage} />
