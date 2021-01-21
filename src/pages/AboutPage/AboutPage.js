@@ -126,7 +126,6 @@ function AboutPage() {
       <div className="about-page__details">
         <h1>More details 👇</h1>
         <ReactPlayer
-          playing
           url="https://www.youtube.com/watch?v=qfjfx0XnxgA&t=2s"
           className="about-page__video"
         />

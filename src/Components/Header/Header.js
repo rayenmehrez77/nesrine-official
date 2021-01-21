@@ -26,11 +26,6 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/podcasts" className="header__link">
-              Podcasts
-            </Link>
-          </li>
-          <li>
             <Link to="/blog" className="header__link">
               Blog
             </Link>
