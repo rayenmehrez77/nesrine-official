@@ -12,7 +12,15 @@ function BlogPage() {
   };
 
   const filteredByCategory = data.filter((item) => {
-    return item.category.includes(search) ? data : null;
+    if (item.category.includes(search)) {
+      return item;
+    } else if (search === "All Posts") {
+      return data;
+    } else {
+      return null;
+    }
+
+    // return item.category.includes(search) ? item : null;
   });
 
   return (

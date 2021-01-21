@@ -1,8 +1,22 @@
 export const data = [
   {
     id: 1,
-    category: "Self inprovement",
-    author: "Rayen Mehrez",
+    category: "Self improvement",
+    author: "Nesrine Bedhief",
+    Photo:
+      "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/138088761_1775325139304093_187038969388348350_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=jUkhj4vwdQQAX_Rj6K4&_nc_ht=scontent-sjc3-1.xx&oh=909f892d820d63803b53bd019e6b5d82&oe=602CB66A",
+    date: "20 janvier 2021",
+    title: "Improve my career & expand my business",
+    image:
+      "https://static.wixstatic.com/media/nsplsh_b286ae9105ea4d099c2e39ebf212db10~mv2.jpg/v1/fill/w_357,h_268,fp_0.50_0.50,q_90/nsplsh_b286ae9105ea4d099c2e39ebf212db10~mv2.webp",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam suscipit, consectetur deleniti corrupti est dicta dolore modi explicabo sequi unde.",
+    readtime: 2,
+  },
+  {
+    id: 11,
+    category: "Self improvement",
+    author: "Nesrine Bedhief",
     Photo:
       "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/138088761_1775325139304093_187038969388348350_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=jUkhj4vwdQQAX_Rj6K4&_nc_ht=scontent-sjc3-1.xx&oh=909f892d820d63803b53bd019e6b5d82&oe=602CB66A",
     date: "20 janvier 2021",
@@ -58,7 +72,7 @@ export const data = [
   {
     id: 5,
     category: "Business",
-    author: "Hamza mehrez",
+    author: "Nesrine Bedhief",
     date: "20 janvier 2021",
     Photo:
       "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/138088761_1775325139304093_187038969388348350_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=jUkhj4vwdQQAX_Rj6K4&_nc_ht=scontent-sjc3-1.xx&oh=909f892d820d63803b53bd019e6b5d82&oe=602CB66A",

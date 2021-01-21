@@ -18,16 +18,22 @@ function Services() {
         ervices
       </h1>
       <div className="services__products">
-        <Product title="Improve my career" Icon={Rank} />
-        <Product title="Improve my career" Icon={Brain} />
-        <Product title="Improve my career" Icon={Success} />
-        <Product title="Improve my career" Icon={Heart} />
-        <Product title="Improve my career" Icon={Idea} />
-        <Product title="Improve my career" Icon={Direction} />
+        <Product
+          title="
+Prioritization and goal setting in a strategic way"
+          Icon={Rank}
+        />
+        <Product
+          title="
+Turn your idea into a business on instagram"
+          Icon={Brain}
+        />
+        <Product
+          title="Solve your business problem
+"
+          Icon={Success}
+        />
       </div>
-      <Link to="/services" className="services__products-link">
-        All services
-      </Link>
     </div>
   );
 }

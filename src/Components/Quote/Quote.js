@@ -9,12 +9,7 @@ function Quote() {
       <div className="quote__content">
         <img src={img} alt="nesrine" className="quote__img" />
         <h3>- Nesrine Beadhief -</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          excepturi sint quisquam consectetur eligendi doloremque eius
-          distinctio voluptate tempore temporibus eaque ratione quae qui, quas
-          iste cupiditate esse dolorum repellendus?
-        </p>
+        <p>" I want to be the reason 🙏of your best version 🚀🚀 "</p>
       </div>
     </div>
   );

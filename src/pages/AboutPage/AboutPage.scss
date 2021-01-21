@@ -1,19 +1,104 @@
 .about-page {
-  height: 100vh;
-  position: relative;
-  h2 {
-    margin: 6rem 3rem;
-    font-size: 3rem;
+  padding-bottom: 4rem;
+  &__info {
+    display: flex;
+
+    & img {
+      width: 30%;
+      object-fit: contain;
+    }
+  }
+
+  &__content {
+    width: 50%;
+    margin-left: 4rem;
+    margin-top: 4rem;
+
+    & h4 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      color: rgb(109, 109, 109);
+    }
+
+    & h2 {
+      font-size: 2rem;
+      color: rgb(163, 135, 7);
+      margin-bottom: 1.5rem;
+    }
+
+    & p {
+      font-size: 1.4rem;
+      min-width: 80%;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    ul {
+      list-style: none;
+
+      li {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        min-width: 50%;
+
+        span:first-child {
+          font-weight: 700;
+          color: #000;
+          width: 130px;
+        }
+
+        span {
+          width: calc(100% - 130px);
+          font-weight: 600;
+          color: #585858;
+        }
+      }
+    }
+  }
+
+  &__logo {
+    width: 20rem;
+  }
+
+  &__education {
+    font-size: 2.5rem;
+    margin: 3rem 2rem;
+    h3 {
+      text-align: center;
+      margin-bottom: 4rem;
+      span {
+        text-decoration: underline;
+        font-size: 3rem;
+        color: rgb(230, 189, 7);
+      }
+    }
+    &-info {
+      display: flex;
+      align-items: center;
+
+      &-svg {
+        fill: rgb(196, 160, 0);
+      }
+
+      h6 {
+        font-size: 1.4rem;
+        a {
+          color: rgb(187, 143, 0);
+        }
+      }
+
+      & img {
+        width: 12rem;
+        margin-right: 1.5rem;
+      }
+    }
+  }
+
+  &__details h1 {
     text-align: center;
-    letter-spacing: 4px;
   }
 
   &__video {
-    display: flex;
-    justify-content: center;
-    margin: 4rem;
-    border: 5px solid rgb(197, 197, 197);
-    border-radius: 10px;
-    cursor: pointer;
+    margin: 2rem auto;
   }
 }

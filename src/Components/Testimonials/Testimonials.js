@@ -7,18 +7,18 @@ import "./Testimonials.scss";
 const Testimonials = () => {
   const people = [
     {
-      author: "Flouen ben flouen",
+      author: "Nesrine bedhief",
       quote:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, distinctio.",
       image: img,
     },
     {
-      author: "Rayen Mehrez",
+      author: "Floulen",
       quote: "dsfsdfsdfaerart",
       image: img,
     },
     {
-      author: "sdfsd",
+      author: "Someone",
       quote: "zataztaztazt.",
       image: img,
     },

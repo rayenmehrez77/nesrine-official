@@ -8,7 +8,7 @@ function Product({ Icon, title }) {
       <Icon className="product__icon" />
       <div className="product__info">
         <h3>{title}</h3>
-        <Link to="/contact">Read more</Link>
+        <Link to="/services">Read more</Link>
       </div>
     </div>
   );
