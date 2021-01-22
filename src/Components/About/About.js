@@ -14,10 +14,7 @@ function About() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quis eius
           laudantium voluptatem laboriosam sint minus soluta itaque omnis
           expedita! Enim modi quos veniam eum. Molestiae magnam modi nulla
-          accusantium? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          A eaque adipisci earum magnam aliquam modi sequi debitis eos.
-          Laboriosam nobis quo obcaecati fugiat tempora repudiandae delectus
-          odio quas, quisquam adipisci!
+          accusantium? Lorem ipsum .
         </p>
         <Link to="/about">
           <CustomButton>Read more</CustomButton>

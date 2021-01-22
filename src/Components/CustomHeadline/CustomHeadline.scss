@@ -12,4 +12,7 @@
     color: rgb(199, 146, 0);
     font-weight: 600;
   }
+  @media screen and(max-width: 600px) {
+    font-size: 2.5rem;
+  }
 }

@@ -76,8 +76,19 @@
     display: none;
   }
 
+  @media screen and(max-width: 450px) {
+    padding: 1rem 2rem;
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__education {
+      margin: 3rem 1rem;
+    }
+  }
+
   @media screen and(max-width: 1152px) {
-    // position: relative;
     display: flex;
     justify-content: space-between;
 
@@ -116,12 +127,16 @@
     &__menu-icon {
       display: block;
       position: absolute;
-      top: -10px;
+      top: 5px;
       right: 0;
       transform: translate(-100%, 60%);
-      font-size: 3.8rem;
       cursor: pointer;
+      font-size: 2.8rem;
     }
+
+    // &__navbar__nav li {
+    //   margin-right: 0;
+    // }
 
     &__book {
       display: none;

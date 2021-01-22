@@ -64,4 +64,20 @@
       }
     }
   }
+
+  @media screen and(max-width: 400px) {
+    &__copyright {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and(max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &__social-media {
+      padding: 2rem 7rem;
+    }
+  }
 }

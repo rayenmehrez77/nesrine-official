@@ -50,4 +50,18 @@
     z-index: 2;
     height: 100%;
   }
+
+  @media screen and(max-width: 800px) {
+    &__content p {
+      padding: 0 2rem;
+    }
+  }
+  @media screen and(max-width: 1000px) {
+    background-image: url("../../assets/success-mobile.jpg");
+    height: 53vh;
+
+    &__content {
+      width: 100%;
+    }
+  }
 }
