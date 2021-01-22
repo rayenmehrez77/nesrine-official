@@ -12,6 +12,7 @@ export const data = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam suscipit, consectetur deleniti corrupti est dicta dolore modi explicabo sequi unde.",
     readtime: 2,
+    linkUrl: "/Self improvement",
   },
   {
     id: 11,
@@ -26,6 +27,7 @@ export const data = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam suscipit, consectetur deleniti corrupti est dicta dolore modi explicabo sequi unde.",
     readtime: 2,
+    linkUrl: "/Self improvement",
   },
   {
     id: 2,
@@ -40,6 +42,7 @@ export const data = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam suscipit, consectetur deleniti corrupti est dicta dolore modi explicabo sequi unde.",
     readtime: 2,
+    linkUrl: "/Business",
   },
   {
     id: 3,
@@ -54,6 +57,7 @@ export const data = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam suscipit, consectetur deleniti corrupti est dicta dolore modi explicabo sequi unde.",
     readtime: 4,
+    linkUrl: "/Relationship",
   },
   {
     id: 4,
@@ -68,6 +72,7 @@ export const data = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam suscipit, consectetur deleniti corrupti est dicta dolore modi explicabo sequi unde.",
     readtime: 12,
+    linkUrl: "/Relationship",
   },
   {
     id: 5,
@@ -82,17 +87,6 @@ export const data = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam suscipit, consectetur deleniti corrupti est dicta dolore modi explicabo sequi unde.",
     readtime: 20,
+    linkUrl: "/Business",
   },
 ];
-
-// Tout d'abord C qui nesrine et qu'est ce qu'elle fait:
-// *élève ingénieur en génie industriel
-// *Coach et وكيلة dans un centre de formation
-// *ناشطة في العمل الجمعيات
-// *vice président de la formation et développement dans la jeune chambre internationale
-// *X Networker professionnel à Network marketing (mouch MLM) à une multi internationale w 8adi win t3elem la notion de travail en ligne
-// *X responsable RH et formations dans la junior entreprise
-// Ma spécialité en ingénierie est polyvalente mil etude lil optimisation de l'industrie ou bien du projet
-// *INFOPRENEUR en business (business مخك ياقف)
-// *accompagnante de petit projet sur Instagram fil les stratégies de contenu et leur optimisation
-// *accompagnante d'un autre groupe fi l'identification de priorités et des objectifs

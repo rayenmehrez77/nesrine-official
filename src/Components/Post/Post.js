@@ -1,9 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useParams, withRouter } from "react-router-dom";
+
 import "./Post.scss";
 
-function Post({ post }) {
-  const { author, title, description, date, image, Photo, readtime } = post;
+function Post({ post, history, match }) {
+  let { topicId } = useParams();
+  const {
+    author,
+    title,
+    category,
+    description,
+    date,
+    image,
+    Photo,
+    readtime,
+    linkUrl,
+  } = post;
   return (
     <div className="post">
       <div className="post__imgbox">
@@ -23,12 +35,15 @@ function Post({ post }) {
         </div>
         <h1 className="post__title">{title}</h1>
         <p className="post__desc">{description}</p>
-        <Link to="/" className="post__readmore">
+        <span
+          className="post__readmore"
+          onClick={() => history.push(`/blog${linkUrl}`)}
+        >
           Read more
-        </Link>
+        </span>
       </div>
     </div>
   );
 }
 
-export default Post;
+export default withRouter(Post);

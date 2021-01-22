@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
 import { FiMenu } from "react-icons/fi";
@@ -25,27 +25,27 @@ function Navbar() {
       </div>
       <ul className={clicked ? "navbar__nav active" : "navbar__nav"}>
         <li>
-          <Link to="/" className="navbar__link">
+          <Link to="/" className="navbar__link" onClick={handleClick}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" className="navbar__link">
+          <Link to="/about" className="navbar__link" onClick={handleClick}>
             About
           </Link>
         </li>
         <li>
-          <Link to="/services" className="navbar__link">
+          <Link to="/services" className="navbar__link" onClick={handleClick}>
             Services
           </Link>
         </li>
         <li>
-          <Link to="/blog" className="navbar__link">
+          <Link to="/blog" className="navbar__link" onClick={handleClick}>
             Blog
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="navbar__link">
+          <Link to="/contact" className="navbar__link" onClick={handleClick}>
             Contact
           </Link>
         </li>

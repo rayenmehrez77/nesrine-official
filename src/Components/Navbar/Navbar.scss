@@ -91,6 +91,7 @@
   @media screen and(max-width: 1152px) {
     display: flex;
     justify-content: space-between;
+    padding-top: 1rem;
 
     &__nav {
       display: flex;
@@ -105,10 +106,10 @@
     }
 
     &__nav.active {
-      background: rgba(0, 0, 0, 0.863);
+      background: #db9807e8;
       left: 0;
       opacity: 1;
-      transition: all 0.5s ease;
+      transition: all 0.7s ease;
       z-index: 1;
     }
 
@@ -121,23 +122,19 @@
       padding: 2rem;
       width: 100%;
       display: table;
-      color: #fff;
+      color: rgb(255, 255, 255);
+      font-weight: 700;
     }
 
     &__menu-icon {
       display: block;
       position: absolute;
       top: 5px;
-      right: 0;
+      right: 1.2rem;
       transform: translate(-100%, 60%);
       cursor: pointer;
       font-size: 2.8rem;
     }
-
-    // &__navbar__nav li {
-    //   margin-right: 0;
-    // }
-
     &__book {
       display: none;
     }
