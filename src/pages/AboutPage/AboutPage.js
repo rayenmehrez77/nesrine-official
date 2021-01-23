@@ -2,7 +2,7 @@ import React from "react";
 import NavigationComponent from "../../Components/NavigationComponent/NavigationComponent";
 import "./AboutPage.scss";
 import ReactPlayer from "react-player";
-import img from "../../assets/aboutpage-img.png";
+import img from "../../assets/about-me.png";
 import jci from "../../assets/JCI.png";
 import erada from "../../assets/american.png";
 import enib from "../../assets/enib.png";
@@ -128,7 +128,6 @@ function AboutPage() {
         <ReactPlayer
           url="https://www.youtube.com/watch?v=qfjfx0XnxgA&t=2s"
           className="about-page__react-player"
-          playing
           width="100%"
           height="100%"
         />

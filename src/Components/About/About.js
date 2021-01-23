@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import image from "../../assets/images/nesrine.png";
+import image from "../../assets/about-img.png";
 import CustomButton from "../CustomButton/CustomButton";
 import { Link } from "react-router-dom";
 import CustomHeadline from "../CustomHeadline/CustomHeadline";

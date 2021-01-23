@@ -1,6 +1,6 @@
 import React from "react";
 import "./Quote.scss";
-import img from "../../assets/images/nesrine.png";
+import img from "../../assets/quote-img.png";
 
 function Quote() {
   return (
