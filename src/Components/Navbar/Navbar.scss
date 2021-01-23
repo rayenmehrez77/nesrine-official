@@ -17,8 +17,9 @@
     font-family: "Dancing Script", cursive;
     font-size: 2.5rem;
     font-weight: 400;
-    width: 30rem;
+    width: 21rem;
     letter-spacing: 4px;
+    outline-style: none;
     color: var(--color-primary);
   }
 
@@ -92,6 +93,10 @@
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 
     &__nav {
       display: flex;
@@ -130,8 +135,8 @@
       display: block;
       position: absolute;
       top: 5px;
-      right: 1.2rem;
-      transform: translate(-100%, 60%);
+      right: 0;
+      transform: translate(-50%, 60%);
       cursor: pointer;
       font-size: 2.8rem;
     }

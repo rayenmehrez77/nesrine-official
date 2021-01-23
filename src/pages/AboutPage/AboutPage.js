@@ -2,7 +2,7 @@ import React from "react";
 import NavigationComponent from "../../Components/NavigationComponent/NavigationComponent";
 import "./AboutPage.scss";
 import ReactPlayer from "react-player";
-import img from "../../assets/images/nesrine.png";
+import img from "../../assets/aboutpage-img.png";
 import jci from "../../assets/JCI.png";
 import erada from "../../assets/american.png";
 import enib from "../../assets/enib.png";
@@ -123,11 +123,14 @@ function AboutPage() {
           </h6>
         </div>
       </div>
-      <div className="about-page__details">
-        <h1>More details 👇</h1>
+      <h1 className="about-page__details">More details 👇</h1>
+      <div className="about-page__player-wrapper">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=qfjfx0XnxgA&t=2s"
-          className="about-page__video"
+          className="about-page__react-player"
+          playing
+          width="100%"
+          height="100%"
         />
       </div>
     </div>

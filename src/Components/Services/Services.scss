@@ -8,6 +8,7 @@
   padding: 3rem 0;
   margin: 8rem 0;
   width: 100%;
+  z-index: 55;
 
   &__overlay {
     background-color: rgba(7, 7, 7, 0.795);
@@ -33,12 +34,9 @@
   }
 
   &__products {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 400px);
-    column-gap: 3.5rem;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    row-gap: 2rem;
 
     &-link {
       display: flex;
@@ -49,6 +47,22 @@
       z-index: 88;
     }
   }
+  // a {
+  //   color: #fff !important;
+  //   margin-top: 0.8rem;
+  //   padding: 0.3rem 0.6rem;
+  //   display: inline-block;
+  //   font-size: 1.4rem;
+  //   border: 2px solid rgb(119, 118, 118);
+  //   text-decoration: none;
+  //   transition: all 0.4s;
+  //   z-index: 56;
+
+  //   &:hover {
+  //     background-color: var(--color-primary);
+  //     font-weight: 600;
+  //   }
+  // }
 
   @media screen and(max-width: 1000px) {
     background-image: url("../../assets/services-bg-mobile.jpg");

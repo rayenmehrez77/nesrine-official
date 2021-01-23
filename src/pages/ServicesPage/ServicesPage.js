@@ -2,9 +2,12 @@ import React from "react";
 import NavigationComponent from "../../Components/NavigationComponent/NavigationComponent";
 import "./ServicesPage.scss";
 import { IoMdContacts, IoMdPersonAdd } from "react-icons/io";
-
+import { IoTicket } from "react-icons/io5";
+import { FaMoneyBillAlt } from "react-icons/fa";
 import { BiTimeFive } from "react-icons/bi";
-import { MdLanguage, MdLocationOn } from "react-icons/md";
+
+import { MdLanguage, MdLocationOn, MdDateRange } from "react-icons/md";
+import ConferenceComponent from "../../Components/ConferenceComponent/ConferenceComponent";
 
 function ServicesPage() {
   return (
@@ -13,30 +16,28 @@ function ServicesPage() {
       <div className="services-page__content">
         <h1>Conference Business مخك ياقف 🚀 </h1>
         <div className="services-page__conference">
-          <div className="services-page__conference-left">
-            <div className="services-page__conference-row">
-              <MdLocationOn className="services-page__icon" />
-              <span>Online</span>
-            </div>
-            <div className="services-page__conference-row">
-              <BiTimeFive className="services-page__icon" />
-              <span>3 hours</span>
-            </div>
-            <div className="services-page__conference-row">
-              <IoMdPersonAdd className="services-page__icon" />
-              <span>1 - 100 participant(s)</span>
-            </div>
-          </div>
-          <div className="services-page__conference-right">
-            <div className="services-page__conference-row">
-              <IoMdContacts className="services-page__icon" />
-              <span>public event</span>
-            </div>
-            <div className="services-page__conference-row">
-              <MdLanguage className="services-page__icon" />
-              <span>French</span>
-            </div>
-          </div>
+          <ConferenceComponent
+            title1="Online"
+            title2="3 hours "
+            title3="1 - 100 participant(s)"
+            Icon1={MdLocationOn}
+            Icon2={BiTimeFive}
+            Icon3={IoMdPersonAdd}
+          />
+          <ConferenceComponent
+            title1="100 tickets"
+            title2="Date: 13/02/2021"
+            title3="Price: 99TND per person"
+            Icon1={IoTicket}
+            Icon2={MdDateRange}
+            Icon3={FaMoneyBillAlt}
+          />
+          <ConferenceComponent
+            title1="Public event"
+            title2="French"
+            Icon1={IoMdContacts}
+            Icon2={MdLanguage}
+          />
         </div>
       </div>
     </div>

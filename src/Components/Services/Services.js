@@ -3,10 +3,8 @@ import "./Services.scss";
 import { ReactComponent as Rank } from "../../assets/svg/002-rank.svg";
 import { ReactComponent as Brain } from "../../assets/svg/011-brain.svg";
 import { ReactComponent as Success } from "../../assets/svg/018-success.svg";
-import { ReactComponent as Heart } from "../../assets/svg/031-heart.svg";
-import { ReactComponent as Idea } from "../../assets/svg/032-idea.svg";
-import { ReactComponent as Direction } from "../../assets/svg/040-direction.svg";
 import Product from "../Product/Product";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -33,6 +31,7 @@ function Services() {
           Icon={Success}
         />
       </div>
+      {/* <Link to="/services">Read more</Link> */}
     </div>
   );
 }

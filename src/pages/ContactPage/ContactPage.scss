@@ -63,8 +63,7 @@
     margin: 0 auto;
     flex-direction: column;
 
-    & textarea,
-    & input {
+    & textarea {
       padding: 1rem 0.4rem;
       color: #666;
       font-weight: 600;
@@ -116,7 +115,7 @@
 
     &__image {
       width: 70%;
-      margin: 1.5rem auto 0;
+      margin: auto;
     }
 
     &__form {

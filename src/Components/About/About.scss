@@ -14,9 +14,21 @@
   }
 
   @media screen and(max-width: 600px) {
+    margin: -3rem 1.3rem;
     &__content {
       width: 100%;
       padding: 0 1rem;
+
+      p {
+        margin: 1rem 0;
+        font-size: 1.4rem;
+        width: 98%;
+      }
+    }
+  }
+  @media screen and(max-width: 800px) {
+    &__content {
+      padding: 0;
     }
   }
 

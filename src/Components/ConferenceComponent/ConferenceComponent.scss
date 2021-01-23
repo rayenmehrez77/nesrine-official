@@ -1,0 +1,25 @@
+.conference {
+  &__wrapper {
+    width: 35%;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 1.5rem;
+      font-weight: 600;
+
+      @media screen and(max-width: 600px) {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  &__icon {
+    font-size: 2.5rem;
+    margin: 1rem;
+    fill: rgb(212, 140, 5);
+  }
+}
