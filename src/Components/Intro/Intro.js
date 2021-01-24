@@ -21,7 +21,7 @@ class Intro extends React.Component {
         email: this.state.email,
       })
       .then(() => {
-        alert("Your succesfully subscribed ");
+        alert("Thanks for subscribing ❤👍 ");
       })
       .catch((error) => {
         console.log(error.message);
