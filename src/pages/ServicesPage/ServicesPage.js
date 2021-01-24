@@ -35,7 +35,7 @@ function ServicesPage() {
             the direction you want.
           </p>
           <p>do you want to know more and become productive?</p>
-          <h3>🔥🔥🔥💰 Now is the right time 💰🔥🔥🔥 </h3>
+          <h3>🔥💰 Now is the right time 💰🔥 </h3>
         </div>
         <div className="services-page__details">
           <span> ✅ Are you ready ? 🎯</span>
@@ -75,6 +75,19 @@ function ServicesPage() {
             make when starting or scaling.
           </h2>
         </div>
+        <div className="services-page__program">
+          <h2>Conference program:</h2>
+          <ul>
+            <li>🟢 The mindset</li>
+            <li> 🟢 What is entrepreneurship?</li>
+            <li>🟢 Your business (with passion), KEY to your success</li>
+            <li>
+              🟢 How to translate your business today during and after Covid?
+            </li>
+            <li>🟢 Strategies for going online</li>
+            <li>🟢 the keys to a successful business</li>
+          </ul>
+        </div>
         <div className="services-page__conference">
           <ConferenceComponent
             title1="Online"
@@ -87,10 +100,8 @@ function ServicesPage() {
           <ConferenceComponent
             title1="100 tickets"
             title2="Date: 13/02/2021"
-            title3="Price: 99TND per person"
             Icon1={IoTicket}
             Icon2={MdDateRange}
-            Icon3={FaMoneyBillAlt}
           />
           <ConferenceComponent
             title1="Public event"
@@ -99,6 +110,18 @@ function ServicesPage() {
             Icon2={MdLanguage}
           />
         </div>
+      </div>
+      <div className="services-page__reservation">
+        <div className="services-page__reservation-left">
+          <h2>Business مخك ياقف</h2>
+          <h3> Price: 99TND per person </h3>
+        </div>
+        <a
+          target="_blank"
+          href="https://www.groupado.tn/fr/experience/OgQUK0IE/business-mkhk-yaqf"
+        >
+          Reserve now
+        </a>
       </div>
     </div>
   );
