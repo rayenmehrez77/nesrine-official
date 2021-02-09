@@ -102,7 +102,7 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 400px;
+      height: 50vh;
       position: absolute;
       top: 8rem;
       left: -100%;
@@ -111,7 +111,7 @@
     }
 
     &__nav.active {
-      background: #a27512eb;
+      background: #b68316e1;
       left: 0;
       opacity: 1;
       transition: all 0.7s ease;

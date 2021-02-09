@@ -8,7 +8,7 @@ function Quote() {
       <div className="quote__overlay"></div>
       <div className="quote__content">
         <img src={img} alt="nesrine" className="quote__img" />
-        <h3>- Nesrine Beadhief -</h3>
+        <h3>- Nesrine BEDHIEF-</h3>
         <p>" I want to be the reason 🙏of your best version 🚀🚀 "</p>
       </div>
     </div>

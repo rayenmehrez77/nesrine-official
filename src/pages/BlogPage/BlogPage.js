@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import NavigationComponent from "../../Components/NavigationComponent/NavigationComponent";
 import "./BlogPage.scss";
 import { data } from "../../data/Posts";
-import Post from "../../Components/Post/Post";
+import Posts from "../../Components/Posts/Posts";
+import { Route } from "react-router-dom";
 
-function BlogPage() {
+function BlogPage({ match }) {
+  console.log(match);
   const [search, setSearch] = useState("");
 
   const handleSearch = (e) => {
@@ -34,9 +36,10 @@ function BlogPage() {
         </select>
       </div>
       <div className="blog-page__posts">
-        {filteredByCategory.map((post) => {
-          return <Post key={post.id} post={post} />;
-        })}
+        <Route
+          path={`${match.path}`}
+          component={() => <Posts filteredPosts={filteredByCategory} />}
+        />
       </div>
     </div>
   );

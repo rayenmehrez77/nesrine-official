@@ -1,10 +1,9 @@
 import React from "react";
-import { useParams, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 import "./Post.scss";
 
-function Post({ post, history, match }) {
-  let { topicId } = useParams();
+function Post({ post, match, history }) {
   const {
     author,
     title,
@@ -37,9 +36,9 @@ function Post({ post, history, match }) {
         <p className="post__desc">{description}</p>
         <span
           className="post__readmore"
-          onClick={() => history.push(`/blog${linkUrl}`)}
+          onClick={() => history.push(`${match.path}/${title}`)}
         >
-          Read more
+          read more
         </span>
       </div>
     </div>

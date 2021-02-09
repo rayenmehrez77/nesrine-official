@@ -2,6 +2,7 @@
   padding-bottom: 4rem;
   &__info {
     display: flex;
+    flex-direction: row-reverse;
 
     & img {
       width: 40%;

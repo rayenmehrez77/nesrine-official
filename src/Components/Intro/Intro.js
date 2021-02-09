@@ -3,13 +3,13 @@ import image from "../../assets/images/nesrine.png";
 import imgbg from "../../assets/images/circles.svg";
 import "./Intro.scss";
 import { db } from "../../firebase/firebase.utils";
-
 class Intro extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
       email: "",
+      submitted: false,
     };
   }
 
@@ -19,9 +19,6 @@ class Intro extends React.Component {
     db.collection("newsletter")
       .add({
         email: this.state.email,
-      })
-      .then(() => {
-        alert("Thanks for subscribing ❤👍 ");
       })
       .catch((error) => {
         console.log(error.message);
@@ -54,9 +51,22 @@ class Intro extends React.Component {
                 placeholder="Enter your email "
                 value={this.state.email}
                 onChange={this.handleChange}
+                required
               />
-              <button type="submit">Subscribe now</button>
+              <button
+                type="submit"
+                onClick={() => this.setState({ submitted: true })}
+              >
+                Subscribe now
+              </button>
             </form>
+            {this.state.submitted && this.state.email !== "" ? (
+              <span
+                style={{ color: "green", marginTop: "1rem", display: "block" }}
+              >
+                Thanks for Subscribing ❤❤
+              </span>
+            ) : null}
           </div>
         </div>
         <div className="intro__imgBox">

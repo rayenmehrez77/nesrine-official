@@ -9,10 +9,9 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer__content">
-        <h1>Nesrine Bedhief | Life Coach</h1>
+        <h1>Nesrine Bedhief | Business and Life Strategist</h1>
         <h2>
-          <span>102 Rue farhet hached</span>
-          <span>Tunis, Tunisie</span>
+          <span>Ariana, Tunisia</span>
         </h2>
       </div>
       <span className="footer__copyright">

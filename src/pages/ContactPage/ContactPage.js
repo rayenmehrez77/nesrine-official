@@ -16,6 +16,7 @@ class Contact extends React.Component {
       email: "",
       phone: "",
       message: "",
+      submitted: false,
     };
   }
 
@@ -30,9 +31,6 @@ class Contact extends React.Component {
         email: email,
         message: message,
         phone: phone,
-      })
-      .then(() => {
-        alert("Your message has been submitted👍");
       })
       .catch((error) => {
         alert(error.message);
@@ -52,7 +50,7 @@ class Contact extends React.Component {
     this.setState({ [name]: value });
   };
   render() {
-    const { name, email, phone, message } = this.state;
+    const { name, email, phone, message, submitted } = this.state;
 
     return (
       <div className="contact-page">
@@ -77,6 +75,7 @@ class Contact extends React.Component {
                 placeholder="Name"
                 value={name}
                 handleChange={this.handleChange}
+                required
               />
               <FormInput
                 name="email"
@@ -84,6 +83,7 @@ class Contact extends React.Component {
                 placeholder="Email"
                 value={email}
                 onChange={this.handleChange}
+                required
               />
               <FormInput
                 name="phone"
@@ -100,8 +100,25 @@ class Contact extends React.Component {
                 placeholder="Write your message here..."
                 className="contact-page__message"
                 onChange={this.handleChange}
+                required
               ></textarea>
-              <button type="submit">Submit</button>
+              <button
+                type="submit"
+                onClick={() => this.setState({ submitted: true })}
+              >
+                Submit
+              </button>
+              {submitted ? (
+                <span
+                  style={{
+                    color: "green",
+                    fontSize: "1.6rem",
+                    marginTop: "1rem",
+                  }}
+                >
+                  Thanks for Submitting 👍 ❤
+                </span>
+              ) : null}
             </form>
           </div>
           <MessagingLogo title="contact img" className="contact-page__image" />

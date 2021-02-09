@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import img from "../../assets/images/nesrine.png";
+import img from "../../assets/images/wakar.png";
 import "./Testimonials.scss";
 
 const Testimonials = () => {
   const people = [
     {
-      author: "Nesrine bedhief",
+      author: "Wakar AICHE 🇩🇿 ",
       quote:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, distinctio.",
+        "I really appreciate what you do my dear sister ❤ It was so nice to meet you 😍🙈 and learn from you 🌹 You're amazing 🤩 You're an amazing Coach 🙆",
       image: img,
     },
     {

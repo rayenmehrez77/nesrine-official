@@ -2,7 +2,7 @@ import React from "react";
 import NavigationComponent from "../../Components/NavigationComponent/NavigationComponent";
 import "./AboutPage.scss";
 import ReactPlayer from "react-player";
-import img from "../../assets/about-me.png";
+import img from "../../assets/nesrinebd.png";
 import jci from "../../assets/JCI.png";
 import erada from "../../assets/american.png";
 import enib from "../../assets/enib.png";
